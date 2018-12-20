@@ -1,0 +1,23 @@
+{
+  "name": "daytrippr",
+  "version": "1.0.0",
+  "description": "the age of the jaguar",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaizer1v/Daytrippr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaizer1v/Daytrippr/issues"
+  },
+  "homepage": "https://github.com/kaizer1v/Daytrippr#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
