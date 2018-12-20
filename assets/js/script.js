@@ -1,4 +1,4 @@
-$(function() {
+(function(document, $) {
   var ComicCache = (function() {
     // var contentDiv = $("#content");
 
@@ -225,4 +225,4 @@ $(function() {
     ComicCache.update(assetProps.id, assetProps);
   }
 
-});
+})(window.document, jQuery);
