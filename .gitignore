@@ -9,19 +9,8 @@
 # Ignore byte-compiled / optimised / DLL files
 *.py[cod]
 
-# Ignore log files
-logs/
-
-# Ignore main data file -- it's too large
-speeches.json
-
-# Ignore SQLite3 files. Gramex creates some automatically
-*.sqlite3
-*.sqlite3-journal
-
 # Cache folders created by Gramex
 .cache/
-.gramex-compiled/
 
 # Old vis.py used to produce xhtml output. Ignore these
 *.xhtml
@@ -54,9 +43,6 @@ speeches.json
 # Sublime-text workspaces, etc
 *.sublime-*
 
-# IPython Notebook checkpoints
-.ipynb_checkpoints
-
 # Typically bash.exe.stackdump on Cygwin
 *.stackdump
 
@@ -72,6 +58,3 @@ Desktop.ini
 $RECYCLE.BIN/
 *[Tt]humbs.db
 *.DS_Store
-
-# R history files
-.RHistory
