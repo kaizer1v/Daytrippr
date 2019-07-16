@@ -11,6 +11,7 @@
     function load() {
       if(localStorage.length > 0) {
         for(elem in localStorage) {
+          if(elem === 'length') return;
           var elemProps = JSON.parse(localStorage[elem]);
           var mapping = {
             "bg": createBackgrounds,
