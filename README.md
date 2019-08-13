@@ -6,12 +6,7 @@ The age of the Jaguar.
 
 ```bash
 npm install
+npm start
 ```
 
-and then run python server (should have python 3.x installed)
-
-```bash
-python -m http.server 8998
-```
-
-and on the browser hit `127.0.0.1:8998`
+and on the browser hit `127.0.0.1:9008`. View the `Gruntfile.js` for more config options.
